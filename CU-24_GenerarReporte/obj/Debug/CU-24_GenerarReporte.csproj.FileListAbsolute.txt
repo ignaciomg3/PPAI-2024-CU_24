@@ -8,3 +8,4 @@ C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_Ge
 C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
 C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaPrincipal.resources
