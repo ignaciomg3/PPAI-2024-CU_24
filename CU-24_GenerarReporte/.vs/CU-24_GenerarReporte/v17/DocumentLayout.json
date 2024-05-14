@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|c:\\users\\usuario\\desktop\\ppai-2024-cu_24\\cu-24_generarreporte\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|c:\\users\\usuario\\desktop\\ppai-2024-cu_24\\cu-24_generarreporte\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T21:09:20.204Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,

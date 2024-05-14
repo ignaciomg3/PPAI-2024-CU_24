@@ -1,0 +1,10 @@
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
