@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PantallaPrincipal));
             this.btnGenerarRanking = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Puesto = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,10 +43,10 @@
             this.dtpHasta = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbTipoReseña = new System.Windows.Forms.ComboBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnPantalla = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnExcel = new System.Windows.Forms.Button();
+            this.btnPDF = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -149,19 +150,26 @@
             // cmbTipoReseña
             // 
             this.cmbTipoReseña.FormattingEnabled = true;
+            this.cmbTipoReseña.Items.AddRange(new object[] {
+            "Sommelier",
+            "Enófilo",
+            "Administrador",
+            ""});
             this.cmbTipoReseña.Location = new System.Drawing.Point(227, 110);
             this.cmbTipoReseña.Name = "cmbTipoReseña";
             this.cmbTipoReseña.Size = new System.Drawing.Size(142, 21);
             this.cmbTipoReseña.TabIndex = 7;
+            this.cmbTipoReseña.Tag = "";
+            this.cmbTipoReseña.Text = "Sommelier";
             // 
-            // button3
+            // btnPantalla
             // 
-            this.button3.Location = new System.Drawing.Point(437, 172);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(77, 74);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Pantalla";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnPantalla.Image = global::CU_24_GenerarReporte.Properties.Resources.img_pantalla;
+            this.btnPantalla.Location = new System.Drawing.Point(437, 172);
+            this.btnPantalla.Name = "btnPantalla";
+            this.btnPantalla.Size = new System.Drawing.Size(77, 74);
+            this.btnPantalla.TabIndex = 10;
+            this.btnPantalla.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -172,22 +180,24 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Seleccione Tipo de Visualización:";
             // 
-            // button2
+            // btnExcel
             // 
-            this.button2.Location = new System.Drawing.Point(330, 172);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 74);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Excel";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnExcel.Image = global::CU_24_GenerarReporte.Properties.Resources.img_excel;
+            this.btnExcel.Location = new System.Drawing.Point(335, 172);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(75, 74);
+            this.btnExcel.TabIndex = 9;
+            this.btnExcel.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnPDF
             // 
-            this.button1.Location = new System.Drawing.Point(236, 172);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(76, 74);
-            this.button1.TabIndex = 8;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPDF.Image = global::CU_24_GenerarReporte.Properties.Resources.img_pdf;
+            this.btnPDF.Location = new System.Drawing.Point(236, 172);
+            this.btnPDF.Name = "btnPDF";
+            this.btnPDF.Size = new System.Drawing.Size(76, 74);
+            this.btnPDF.TabIndex = 8;
+            this.btnPDF.UseVisualStyleBackColor = true;
+            this.btnPDF.Click += new System.EventHandler(this.btnPDF_Click);
             // 
             // PantallaPrincipal
             // 
@@ -196,9 +206,9 @@
             this.BackColor = System.Drawing.Color.OldLace;
             this.ClientSize = new System.Drawing.Size(1203, 530);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnPantalla);
+            this.Controls.Add(this.btnExcel);
+            this.Controls.Add(this.btnPDF);
             this.Controls.Add(this.cmbTipoReseña);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dtpHasta);
@@ -207,6 +217,7 @@
             this.Controls.Add(this.dtpDesde);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnGenerarRanking);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PantallaPrincipal";
             this.Text = "PantallaPrincipal";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -231,9 +242,9 @@
         private System.Windows.Forms.DateTimePicker dtpHasta;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbTipoReseña;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnPDF;
+        private System.Windows.Forms.Button btnExcel;
+        private System.Windows.Forms.Button btnPantalla;
         private System.Windows.Forms.Label label4;
     }
 }

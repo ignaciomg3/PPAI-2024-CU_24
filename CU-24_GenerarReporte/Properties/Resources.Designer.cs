@@ -83,6 +83,16 @@ namespace CU_24_GenerarReporte.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img_excel {
+            get {
+                object obj = ResourceManager.GetObject("img excel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img_pantalla {
             get {
                 object obj = ResourceManager.GetObject("img pantalla", resourceCulture);

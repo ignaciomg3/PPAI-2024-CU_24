@@ -26,5 +26,10 @@ namespace CU_24_GenerarReporte.Boundary
         {
 
         }
+
+        private void btnPDF_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
