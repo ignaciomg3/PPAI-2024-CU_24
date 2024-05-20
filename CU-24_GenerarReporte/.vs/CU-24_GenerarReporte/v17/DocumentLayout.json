@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\boundary\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:boundary\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|c:\\users\\usuario\\desktop\\ppai-2024-cu_24\\cu-24_generarreporte\\entidades\\bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:entidades\\bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\boundary\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:boundary\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\boundary\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:boundary\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|c:\\users\\usuario\\desktop\\ppai-2024-cu_24\\cu-24_generarreporte\\entidades\\novedadevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:entidades\\novedadevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\boundary\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:boundary\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|c:\\users\\usuario\\desktop\\ppai-2024-cu_24\\cu-24_generarreporte\\boundary\\pantallaprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:boundary\\pantallaprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PantallaPrincipal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.Designer.cs",
-              "RelativeDocumentMoniker": "Boundary\\PantallaPrincipal.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.Designer.cs",
-              "RelativeToolTip": "Boundary\\PantallaPrincipal.Designer.cs",
-              "ViewState": "AQIAALMAAAAAAAAAAAAjwMgAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T23:20:22.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\Login.cs",
-              "RelativeDocumentMoniker": "Boundary\\Login.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Boundary\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T23:12:45.246Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\Login.Designer.cs",
-              "RelativeDocumentMoniker": "Boundary\\Login.Designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\Login.Designer.cs",
-              "RelativeToolTip": "Boundary\\Login.Designer.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAgwC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T23:10:29.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "PantallaPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.cs",
               "RelativeDocumentMoniker": "Boundary\\PantallaPrincipal.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.cs",
               "RelativeToolTip": "Boundary\\PantallaPrincipal.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAtwB8AAAAAAAAA",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAqwIcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T22:40:47.649Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NovedadEvento.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Entidades\\NovedadEvento.cs",
+              "RelativeDocumentMoniker": "Entidades\\NovedadEvento.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Entidades\\NovedadEvento.cs",
+              "RelativeToolTip": "Entidades\\NovedadEvento.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwA4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:33:24.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PantallaPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.cs",
-              "RelativeDocumentMoniker": "Boundary\\PantallaPrincipal.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Boundary\\PantallaPrincipal.cs [Dise\u00F1o]",
+              "Title": "Bodega.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Entidades\\Bodega.cs",
+              "RelativeDocumentMoniker": "Entidades\\Bodega.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Entidades\\Bodega.cs",
+              "RelativeToolTip": "Entidades\\Bodega.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwC0AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T21:34:52.296Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-20T04:29:42.94Z",
+              "EditorCaption": ""
             }
           ]
         }

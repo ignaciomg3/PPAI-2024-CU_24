@@ -220,12 +220,19 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PantallaPrincipal";
             this.Text = "PantallaPrincipal";
+            this.Load += new System.EventHandler(this.PantallaPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
+
+
         }
 
+        private void InitializeCustomComponent()
+        {
+
+        }
         #endregion
 
         private System.Windows.Forms.Button btnGenerarRanking;

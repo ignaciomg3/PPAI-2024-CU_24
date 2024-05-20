@@ -58,6 +58,18 @@
     <Compile Include="Boundary\PantallaPrincipal.Designer.cs">
       <DependentUpon>PantallaPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entidades\Bodega.cs" />
+    <Compile Include="Entidades\Certificacion.cs" />
+    <Compile Include="Entidades\CobroPremium.cs" />
+    <Compile Include="Entidades\Maridaje.cs" />
+    <Compile Include="Entidades\NovedadEvento.cs" />
+    <Compile Include="Entidades\Pais.cs" />
+    <Compile Include="Entidades\Perfil.cs" />
+    <Compile Include="Entidades\Provincia.cs" />
+    <Compile Include="Entidades\RegionVitivinicola.cs" />
+    <Compile Include="Entidades\TipoUva.cs" />
+    <Compile Include="Entidades\Usuario.cs" />
+    <Compile Include="Entidades\Varietal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Boundary\Login.resx">
@@ -92,9 +104,7 @@
   <ItemGroup>
     <None Include="Resources\hombre tomando vino.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Entidades\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\img pantalla.png" />
   </ItemGroup>

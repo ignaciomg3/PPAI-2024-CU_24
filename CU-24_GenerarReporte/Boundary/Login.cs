@@ -28,6 +28,11 @@ namespace CU_24_GenerarReporte
             PantallaPrincipal pantallaPrincipal = new PantallaPrincipal();
             pantallaPrincipal.Show();
             this.Hide();
+            // Creamos una nueva instancia de PantallaPrincipal
+            PantallaPrincipal nuevaVentana = new PantallaPrincipal();
+
+            // Mostramos la nueva ventana
+            //nuevaVentana.Show();
         }
     }
 }
