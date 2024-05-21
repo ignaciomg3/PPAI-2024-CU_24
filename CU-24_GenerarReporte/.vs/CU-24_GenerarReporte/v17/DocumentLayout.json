@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\controlador\\gestor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:controlador\\gestor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|c:\\users\\usuario\\desktop\\ppai-2024-cu_24\\cu-24_generarreporte\\boundary\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:boundary\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\boundary\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:boundary\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\controlador\\gestor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:controlador\\gestor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\entidades\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PantallaPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.cs",
               "RelativeDocumentMoniker": "Boundary\\PantallaPrincipal.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.cs",
               "RelativeToolTip": "Boundary\\PantallaPrincipal.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAQwEMAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAADwv0QAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T22:40:47.649Z",
               "IsPinned": true,
@@ -56,19 +56,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Gestor.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Controlador\\Gestor.cs",
               "RelativeDocumentMoniker": "Controlador\\Gestor.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Controlador\\Gestor.cs",
               "RelativeToolTip": "Controlador\\Gestor.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAMwCAAAAAMAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAA3wDoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T05:09:20.12Z"
+              "WhenOpened": "2024-05-21T05:09:20.12Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PantallaPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.cs",
               "RelativeDocumentMoniker": "Boundary\\PantallaPrincipal.cs",

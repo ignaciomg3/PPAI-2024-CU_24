@@ -44,18 +44,22 @@
             this.label3 = new System.Windows.Forms.Label();
             this.cmbTipoReseña = new System.Windows.Forms.ComboBox();
             this.btnPantalla = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.btnExcel = new System.Windows.Forms.Button();
             this.btnPDF = new System.Windows.Forms.Button();
             this.btnGenerarRankingDeVinos = new System.Windows.Forms.Button();
             this.panelGenerarRanking = new System.Windows.Forms.Panel();
+            this.grupoBoxVisualizacion = new System.Windows.Forms.GroupBox();
+            this.rbPDF = new System.Windows.Forms.RadioButton();
+            this.rbExcel = new System.Windows.Forms.RadioButton();
+            this.rbPantalla = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panelGenerarRanking.SuspendLayout();
+            this.grupoBoxVisualizacion.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnGenerarRanking
             // 
-            this.btnGenerarRanking.Location = new System.Drawing.Point(565, 204);
+            this.btnGenerarRanking.Location = new System.Drawing.Point(455, 177);
             this.btnGenerarRanking.Name = "btnGenerarRanking";
             this.btnGenerarRanking.Size = new System.Drawing.Size(128, 40);
             this.btnGenerarRanking.TabIndex = 0;
@@ -167,25 +171,16 @@
             // btnPantalla
             // 
             this.btnPantalla.Image = global::CU_24_GenerarReporte.Properties.Resources.img_pantalla;
-            this.btnPantalla.Location = new System.Drawing.Point(412, 170);
+            this.btnPantalla.Location = new System.Drawing.Point(841, 189);
             this.btnPantalla.Name = "btnPantalla";
             this.btnPantalla.Size = new System.Drawing.Size(77, 74);
             this.btnPantalla.TabIndex = 10;
             this.btnPantalla.UseVisualStyleBackColor = true;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(27, 155);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(166, 13);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Seleccione Tipo de Visualización:";
-            // 
             // btnExcel
             // 
             this.btnExcel.Image = global::CU_24_GenerarReporte.Properties.Resources.img_excel;
-            this.btnExcel.Location = new System.Drawing.Point(310, 170);
+            this.btnExcel.Location = new System.Drawing.Point(841, 97);
             this.btnExcel.Name = "btnExcel";
             this.btnExcel.Size = new System.Drawing.Size(75, 74);
             this.btnExcel.TabIndex = 9;
@@ -194,7 +189,7 @@
             // btnPDF
             // 
             this.btnPDF.Image = global::CU_24_GenerarReporte.Properties.Resources.img_pdf;
-            this.btnPDF.Location = new System.Drawing.Point(211, 170);
+            this.btnPDF.Location = new System.Drawing.Point(841, 17);
             this.btnPDF.Name = "btnPDF";
             this.btnPDF.Size = new System.Drawing.Size(76, 74);
             this.btnPDF.TabIndex = 8;
@@ -213,11 +208,11 @@
             // 
             // panelGenerarRanking
             // 
+            this.panelGenerarRanking.Controls.Add(this.grupoBoxVisualizacion);
             this.panelGenerarRanking.Controls.Add(this.dtpHasta);
             this.panelGenerarRanking.Controls.Add(this.dtpDesde);
             this.panelGenerarRanking.Controls.Add(this.btnGenerarRanking);
             this.panelGenerarRanking.Controls.Add(this.dataGridView1);
-            this.panelGenerarRanking.Controls.Add(this.label4);
             this.panelGenerarRanking.Controls.Add(this.label1);
             this.panelGenerarRanking.Controls.Add(this.btnPantalla);
             this.panelGenerarRanking.Controls.Add(this.label2);
@@ -229,6 +224,52 @@
             this.panelGenerarRanking.Name = "panelGenerarRanking";
             this.panelGenerarRanking.Size = new System.Drawing.Size(920, 454);
             this.panelGenerarRanking.TabIndex = 13;
+            // 
+            // grupoBoxVisualizacion
+            // 
+            this.grupoBoxVisualizacion.Controls.Add(this.rbPantalla);
+            this.grupoBoxVisualizacion.Controls.Add(this.rbExcel);
+            this.grupoBoxVisualizacion.Controls.Add(this.rbPDF);
+            this.grupoBoxVisualizacion.Location = new System.Drawing.Point(77, 156);
+            this.grupoBoxVisualizacion.Name = "grupoBoxVisualizacion";
+            this.grupoBoxVisualizacion.Size = new System.Drawing.Size(303, 78);
+            this.grupoBoxVisualizacion.TabIndex = 12;
+            this.grupoBoxVisualizacion.TabStop = false;
+            this.grupoBoxVisualizacion.Text = "Tipo de Visualización";
+            // 
+            // rbPDF
+            // 
+            this.rbPDF.AutoSize = true;
+            this.rbPDF.Location = new System.Drawing.Point(6, 33);
+            this.rbPDF.Name = "rbPDF";
+            this.rbPDF.Size = new System.Drawing.Size(46, 17);
+            this.rbPDF.TabIndex = 0;
+            this.rbPDF.TabStop = true;
+            this.rbPDF.Text = "PDF";
+            this.rbPDF.UseVisualStyleBackColor = true;
+            // 
+            // rbExcel
+            // 
+            this.rbExcel.AutoSize = true;
+            this.rbExcel.Location = new System.Drawing.Point(116, 33);
+            this.rbExcel.Name = "rbExcel";
+            this.rbExcel.Size = new System.Drawing.Size(51, 17);
+            this.rbExcel.TabIndex = 1;
+            this.rbExcel.TabStop = true;
+            this.rbExcel.Text = "Excel";
+            this.rbExcel.UseVisualStyleBackColor = true;
+            this.rbExcel.CheckedChanged += new System.EventHandler(this.rbExcel_CheckedChanged);
+            // 
+            // rbPantalla
+            // 
+            this.rbPantalla.AutoSize = true;
+            this.rbPantalla.Location = new System.Drawing.Point(225, 33);
+            this.rbPantalla.Name = "rbPantalla";
+            this.rbPantalla.Size = new System.Drawing.Size(63, 17);
+            this.rbPantalla.TabIndex = 2;
+            this.rbPantalla.TabStop = true;
+            this.rbPantalla.Text = "Pantalla";
+            this.rbPantalla.UseVisualStyleBackColor = true;
             // 
             // PantallaPrincipal
             // 
@@ -244,6 +285,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panelGenerarRanking.ResumeLayout(false);
             this.panelGenerarRanking.PerformLayout();
+            this.grupoBoxVisualizacion.ResumeLayout(false);
+            this.grupoBoxVisualizacion.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -271,8 +314,11 @@
         private System.Windows.Forms.Button btnPDF;
         private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.Button btnPantalla;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnGenerarRankingDeVinos;
         private System.Windows.Forms.Panel panelGenerarRanking;
+        private System.Windows.Forms.GroupBox grupoBoxVisualizacion;
+        private System.Windows.Forms.RadioButton rbPantalla;
+        private System.Windows.Forms.RadioButton rbExcel;
+        private System.Windows.Forms.RadioButton rbPDF;
     }
 }

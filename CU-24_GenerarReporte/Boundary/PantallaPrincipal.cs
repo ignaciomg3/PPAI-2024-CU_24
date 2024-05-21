@@ -2,8 +2,10 @@
 using CU_24_GenerarReporte.Entidades;
 using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace CU_24_GenerarReporte.Boundary
 {
@@ -61,18 +63,19 @@ namespace CU_24_GenerarReporte.Boundary
         };
 
         // Creación del objeto Gestor
-        static Gestor gestor = new Gestor(listaVinos, DateTime.Now.AddMonths(-1), DateTime.Now, "Premium", "Pantalla");
+        //static Gestor gestor = new Gestor(listaVinos, DateTime.Now.AddMonths(-1), DateTime.Now, "Premium", "Pantalla");
          
 
-        private Gestor gestorRanking;
+        private Gestor gestorAtributo;
 
         public PantallaPrincipal()
         {
             InitializeComponent();
 
-            gestorRanking = gestor;
-           
+            gestorAtributo = new Gestor(listaVinos, DateTime.Now.AddMonths(-1), DateTime.Now, "Premium", "Pantalla",this);
+
             panelGenerarRanking.Visible = false;
+            rbExcel.Checked = true;
 
             // Mostrar información de varietal1
             Console.WriteLine("Varietal 1:");
@@ -117,31 +120,19 @@ namespace CU_24_GenerarReporte.Boundary
         private void btnGenerarRanking_Click(object sender, EventArgs e)
         {
             //Cuando hace click para generar el reporte:
-            gestor.OpcionGenerarRankingVinos(); //este método no sé que función cumple.
+            gestorAtributo.OpcionGenerarRankingVinos(); //este método no sé que función cumple.
 
             //Solicita las fechas
-            (DateTime desde, DateTime hasta) fechasDyH = SolicitarSelFechaDesdeYHasta();
+            //(DateTime desde, DateTime hasta) fechasDyH = SolicitarSelFechaDesdeYHasta();
             //Valida el período
-            if (ValidarPeriodo(fechasDyH.Item1, fechasDyH.Item2))
-            {
-                MessageBox.Show("El periodo es válido.", "Validación Exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                //si es válido..
-                gestor.TomarSelFechaDesdeYHasta(fechasDyH.Item1, fechasDyH.Item2);
-            }
-            else
-            {
-                MessageBox.Show("El periodo no es válido. La fecha 'Desde' debe ser menor o igual a la fecha 'Hasta'.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            };
-
-            //Solicitamos el tipo de reseña.
-            string tipoReseña = SolicitarSelTipoReseña();
-
-            gestor.TomarSeleccionTipoReseña(tipoReseña);
-
-
-
             
 
+            //Solicitamos el tipo de reseña.
+            //string tipoReseña = SolicitarSelTipoReseña();
+
+            //gestorAtributo.TomarSeleccionTipoReseña(tipoReseña);
+
+             
         }
 
         private void OpcionGenerarRankingDeVinos()
@@ -152,18 +143,26 @@ namespace CU_24_GenerarReporte.Boundary
         {
             panelGenerarRanking.Visible = true;
             // Configurar los botones para usar el estilo Flat
-            btnPDF.FlatStyle = FlatStyle.Flat;
-            btnExcel.FlatStyle = FlatStyle.Flat;
-            btnPantalla.FlatStyle = FlatStyle.Flat;
-
+              
              
         }
-        public (DateTime desde, DateTime hasta) SolicitarSelFechaDesdeYHasta()
+        public void SolicitarSelFechaDesdeYHasta()
         {
             DateTime desde = TomarFechaDesde();
             DateTime hasta = TomarFechaHasta();
 
-            return (desde, hasta);
+             
+            if (ValidarPeriodo(desde,hasta))
+            {
+                MessageBox.Show("El periodo es válido.", "Validación Exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //si es válido..
+                gestorAtributo.TomarSelFechaDesdeYHasta(desde,hasta);
+            }
+            else
+            {
+                MessageBox.Show("El periodo no es válido. La fecha 'Desde' debe ser menor o igual a la fecha 'Hasta'.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            };
+            
         }
         public DateTime TomarFechaDesde()
         {
@@ -183,10 +182,12 @@ namespace CU_24_GenerarReporte.Boundary
             return false ;
         }
 
-        public string SolicitarSelTipoReseña()
+        public void SolicitarSelTipoReseña()
         {
             string tipoReseña =  TomarSelTipoReseña();
-            return tipoReseña;
+            //return tipoReseña;
+
+            gestorAtributo.TomarSelTipoVisualizacion(tipoReseña);
         }
      
         public string TomarSelTipoReseña()
@@ -196,10 +197,58 @@ namespace CU_24_GenerarReporte.Boundary
         }
         public void SolicitarSelTipoVisualizacion()
         {
+            string tipoVisualizacion = TomarSelTipoVisualizacion();
+
+            gestorAtributo.TomarSelTipoVisualizacion(tipoVisualizacion);
+        }
+        private string TomarSelTipoVisualizacion()
+        {
+            if (rbPDF.Checked)
+            {
+                return "PDF";
+            }
+            else if (rbExcel.Checked)
+            {
+                return "Excel";
+            }
+            else if (rbPantalla.Checked)
+            {
+                return "Pantalla";
+            }
+            else
+            {
+                return null; // Ningún RadioButton está seleccionado
+            }
+        }
+
+        public void SolicitarConfirmacionGenReporte()
+        {
+
+            if (TomarConfirmacionGenReporte())
+            {
+                // Código para generar el reporte
+                MessageBox.Show("Generando el reporte...", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                gestorAtributo.TomarConfirmacionGenReporte();
+            }
+            else
+            {
+                // Código si el usuario cancela la generación del reporte
+                MessageBox.Show("Operación cancelada.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
 
         }
 
+        private bool TomarConfirmacionGenReporte()
+        {
+            DialogResult result = MessageBox.Show("¿Desea Generar el Reporte con estos datos?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            return result == DialogResult.Yes;
+        }
         private void btnPDF_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbExcel_CheckedChanged(object sender, EventArgs e)
         {
 
         }
