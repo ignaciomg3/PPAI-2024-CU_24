@@ -26,6 +26,4 @@ namespace CU_24_GenerarReporte.Entidades
         }
     }
 
-     
-
 }

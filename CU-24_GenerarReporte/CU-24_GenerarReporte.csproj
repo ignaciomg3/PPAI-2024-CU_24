@@ -58,18 +58,15 @@
     <Compile Include="Boundary\PantallaPrincipal.Designer.cs">
       <DependentUpon>PantallaPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controlador\Gestor.cs" />
     <Compile Include="Entidades\Bodega.cs" />
-    <Compile Include="Entidades\Certificacion.cs" />
-    <Compile Include="Entidades\CobroPremium.cs" />
-    <Compile Include="Entidades\Maridaje.cs" />
-    <Compile Include="Entidades\NovedadEvento.cs" />
     <Compile Include="Entidades\Pais.cs" />
-    <Compile Include="Entidades\Perfil.cs" />
     <Compile Include="Entidades\Provincia.cs" />
     <Compile Include="Entidades\RegionVitivinicola.cs" />
+    <Compile Include="Entidades\Reseña.cs" />
     <Compile Include="Entidades\TipoUva.cs" />
-    <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="Entidades\Varietal.cs" />
+    <Compile Include="Entidades\Vino.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Boundary\Login.resx">

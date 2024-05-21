@@ -47,12 +47,15 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btnExcel = new System.Windows.Forms.Button();
             this.btnPDF = new System.Windows.Forms.Button();
+            this.btnGenerarRankingDeVinos = new System.Windows.Forms.Button();
+            this.panelGenerarRanking = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panelGenerarRanking.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnGenerarRanking
             // 
-            this.btnGenerarRanking.Location = new System.Drawing.Point(36, 282);
+            this.btnGenerarRanking.Location = new System.Drawing.Point(565, 204);
             this.btnGenerarRanking.Name = "btnGenerarRanking";
             this.btnGenerarRanking.Size = new System.Drawing.Size(128, 40);
             this.btnGenerarRanking.TabIndex = 0;
@@ -69,7 +72,7 @@
             this.Región,
             this.Provincia,
             this.País});
-            this.dataGridView1.Location = new System.Drawing.Point(36, 338);
+            this.dataGridView1.Location = new System.Drawing.Point(59, 274);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(634, 180);
             this.dataGridView1.TabIndex = 1;
@@ -106,7 +109,7 @@
             // 
             // dtpDesde
             // 
-            this.dtpDesde.Location = new System.Drawing.Point(227, 28);
+            this.dtpDesde.Location = new System.Drawing.Point(202, 26);
             this.dtpDesde.Name = "dtpDesde";
             this.dtpDesde.Size = new System.Drawing.Size(233, 20);
             this.dtpDesde.TabIndex = 2;
@@ -114,7 +117,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(177, 34);
+            this.label1.Location = new System.Drawing.Point(152, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 3;
@@ -123,7 +126,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(177, 71);
+            this.label2.Location = new System.Drawing.Point(152, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 4;
@@ -132,7 +135,7 @@
             // 
             // dtpHasta
             // 
-            this.dtpHasta.Location = new System.Drawing.Point(227, 64);
+            this.dtpHasta.Location = new System.Drawing.Point(202, 62);
             this.dtpHasta.Name = "dtpHasta";
             this.dtpHasta.Size = new System.Drawing.Size(233, 20);
             this.dtpHasta.TabIndex = 5;
@@ -140,7 +143,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(129, 113);
+            this.label3.Location = new System.Drawing.Point(104, 111);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 13);
             this.label3.TabIndex = 6;
@@ -155,7 +158,7 @@
             "Enófilo",
             "Administrador",
             ""});
-            this.cmbTipoReseña.Location = new System.Drawing.Point(227, 110);
+            this.cmbTipoReseña.Location = new System.Drawing.Point(202, 108);
             this.cmbTipoReseña.Name = "cmbTipoReseña";
             this.cmbTipoReseña.Size = new System.Drawing.Size(142, 21);
             this.cmbTipoReseña.TabIndex = 7;
@@ -165,7 +168,7 @@
             // btnPantalla
             // 
             this.btnPantalla.Image = global::CU_24_GenerarReporte.Properties.Resources.img_pantalla;
-            this.btnPantalla.Location = new System.Drawing.Point(437, 172);
+            this.btnPantalla.Location = new System.Drawing.Point(412, 170);
             this.btnPantalla.Name = "btnPantalla";
             this.btnPantalla.Size = new System.Drawing.Size(77, 74);
             this.btnPantalla.TabIndex = 10;
@@ -174,7 +177,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(52, 157);
+            this.label4.Location = new System.Drawing.Point(27, 155);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(166, 13);
             this.label4.TabIndex = 11;
@@ -183,7 +186,7 @@
             // btnExcel
             // 
             this.btnExcel.Image = global::CU_24_GenerarReporte.Properties.Resources.img_excel;
-            this.btnExcel.Location = new System.Drawing.Point(335, 172);
+            this.btnExcel.Location = new System.Drawing.Point(310, 170);
             this.btnExcel.Name = "btnExcel";
             this.btnExcel.Size = new System.Drawing.Size(75, 74);
             this.btnExcel.TabIndex = 9;
@@ -192,12 +195,41 @@
             // btnPDF
             // 
             this.btnPDF.Image = global::CU_24_GenerarReporte.Properties.Resources.img_pdf;
-            this.btnPDF.Location = new System.Drawing.Point(236, 172);
+            this.btnPDF.Location = new System.Drawing.Point(211, 170);
             this.btnPDF.Name = "btnPDF";
             this.btnPDF.Size = new System.Drawing.Size(76, 74);
             this.btnPDF.TabIndex = 8;
             this.btnPDF.UseVisualStyleBackColor = true;
             this.btnPDF.Click += new System.EventHandler(this.btnPDF_Click);
+            // 
+            // btnGenerarRankingDeVinos
+            // 
+            this.btnGenerarRankingDeVinos.Location = new System.Drawing.Point(12, 12);
+            this.btnGenerarRankingDeVinos.Name = "btnGenerarRankingDeVinos";
+            this.btnGenerarRankingDeVinos.Size = new System.Drawing.Size(156, 36);
+            this.btnGenerarRankingDeVinos.TabIndex = 12;
+            this.btnGenerarRankingDeVinos.Text = "Generar Ranking de Vinos";
+            this.btnGenerarRankingDeVinos.UseVisualStyleBackColor = true;
+            this.btnGenerarRankingDeVinos.Click += new System.EventHandler(this.btnGenerarRankingDeVinos_Click);
+            // 
+            // panelGenerarRanking
+            // 
+            this.panelGenerarRanking.Controls.Add(this.dtpHasta);
+            this.panelGenerarRanking.Controls.Add(this.dtpDesde);
+            this.panelGenerarRanking.Controls.Add(this.btnGenerarRanking);
+            this.panelGenerarRanking.Controls.Add(this.dataGridView1);
+            this.panelGenerarRanking.Controls.Add(this.label4);
+            this.panelGenerarRanking.Controls.Add(this.label1);
+            this.panelGenerarRanking.Controls.Add(this.btnPantalla);
+            this.panelGenerarRanking.Controls.Add(this.label2);
+            this.panelGenerarRanking.Controls.Add(this.btnExcel);
+            this.panelGenerarRanking.Controls.Add(this.label3);
+            this.panelGenerarRanking.Controls.Add(this.btnPDF);
+            this.panelGenerarRanking.Controls.Add(this.cmbTipoReseña);
+            this.panelGenerarRanking.Location = new System.Drawing.Point(24, 54);
+            this.panelGenerarRanking.Name = "panelGenerarRanking";
+            this.panelGenerarRanking.Size = new System.Drawing.Size(920, 454);
+            this.panelGenerarRanking.TabIndex = 13;
             // 
             // PantallaPrincipal
             // 
@@ -205,27 +237,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OldLace;
             this.ClientSize = new System.Drawing.Size(1203, 530);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.btnPantalla);
-            this.Controls.Add(this.btnExcel);
-            this.Controls.Add(this.btnPDF);
-            this.Controls.Add(this.cmbTipoReseña);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.dtpHasta);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.dtpDesde);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.btnGenerarRanking);
+            this.Controls.Add(this.panelGenerarRanking);
+            this.Controls.Add(this.btnGenerarRankingDeVinos);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PantallaPrincipal";
             this.Text = "PantallaPrincipal";
             this.Load += new System.EventHandler(this.PantallaPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panelGenerarRanking.ResumeLayout(false);
+            this.panelGenerarRanking.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
-
-
 
         }
 
@@ -253,5 +274,7 @@
         private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.Button btnPantalla;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnGenerarRankingDeVinos;
+        private System.Windows.Forms.Panel panelGenerarRanking;
     }
 }

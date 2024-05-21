@@ -14,7 +14,7 @@ namespace CU_24_GenerarReporte.Entidades
         public string Nombre { get; set; }
         public DateTime PeriodoActualizacion { get; set; }
         public RegionVitivinicola Region { get; set; }
-        public NovedadEvento NovedadEvento { get; set; }
+        
 
         // Constructor
         public Bodega(string coordenadasUbicacion, string descripcion, string historia, string nombre, DateTime periodoActualizacion, RegionVitivinicola region)
