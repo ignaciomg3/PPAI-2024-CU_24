@@ -3,6 +3,7 @@ using CU_24_GenerarReporte.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace CU_24_GenerarReporte.Boundary
 {
@@ -60,13 +61,18 @@ namespace CU_24_GenerarReporte.Boundary
         };
 
         // Creación del objeto Gestor
-        static Gestor gestor = new Gestor(listaVinos, DateTime.Now.AddMonths(-1), DateTime.Now, "Premium", "Pantalla"); 
+        static Gestor gestor = new Gestor(listaVinos, DateTime.Now.AddMonths(-1), DateTime.Now, "Premium", "Pantalla");
+         
+
+        private Gestor gestorRanking;
 
         public PantallaPrincipal()
         {
             InitializeComponent();
 
-             panelGenerarRanking.Visible = false;
+            gestorRanking = gestor;
+           
+            panelGenerarRanking.Visible = false;
 
             // Mostrar información de varietal1
             Console.WriteLine("Varietal 1:");
@@ -78,7 +84,6 @@ namespace CU_24_GenerarReporte.Boundary
             Console.WriteLine("Varietal 2:");
             varietal2.TipoUva.MostrarInformacion();
             varietal2.MostrarPorcentaje();
-
              
 
             // Mostrar información de las regiones vitivinícolas
@@ -99,39 +104,44 @@ namespace CU_24_GenerarReporte.Boundary
             pais.Provincias.Add(provincia3);
             pais.Provincias.Add(provincia4);
 
-            // Mostrar información del país
-            Console.WriteLine($"País: {pais.Nombre}");
-            Console.WriteLine($"Cantidad de Provincias: {pais.ContarProvincias()}");
-            Console.WriteLine($"Cantidad de Bodegas: {pais.ContarBodegas()}");
-            Console.WriteLine("Provincias:");
+            pais.MostrarInformacion();
             pais.MostrarProvincias();
-
-            
+             
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnPDF_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PantallaPrincipal_Load(object sender, EventArgs e)
-        {
-
-        }
-
+         
         private void btnGenerarRankingDeVinos_Click(object sender, EventArgs e)
         {
             OpcionGenerarRankingDeVinos();
+        }
+        
+        private void btnGenerarRanking_Click(object sender, EventArgs e)
+        {
+            //Cuando hace click para generar el reporte:
+            gestor.OpcionGenerarRankingVinos(); //este método no sé que función cumple.
+
+            //Solicita las fechas
+            (DateTime desde, DateTime hasta) fechasDyH = SolicitarSelFechaDesdeYHasta();
+            //Valida el período
+            if (ValidarPeriodo(fechasDyH.Item1, fechasDyH.Item2))
+            {
+                MessageBox.Show("El periodo es válido.", "Validación Exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //si es válido..
+                gestor.TomarSelFechaDesdeYHasta(fechasDyH.Item1, fechasDyH.Item2);
+            }
+            else
+            {
+                MessageBox.Show("El periodo no es válido. La fecha 'Desde' debe ser menor o igual a la fecha 'Hasta'.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            };
+
+            //Solicitamos el tipo de reseña.
+            string tipoReseña = SolicitarSelTipoReseña();
+
+            gestor.TomarSeleccionTipoReseña(tipoReseña);
+
+
+
+            
+
         }
 
         private void OpcionGenerarRankingDeVinos()
@@ -141,8 +151,57 @@ namespace CU_24_GenerarReporte.Boundary
         private void HabilitarPantalla()
         {
             panelGenerarRanking.Visible = true;
+            // Configurar los botones para usar el estilo Flat
+            btnPDF.FlatStyle = FlatStyle.Flat;
+            btnExcel.FlatStyle = FlatStyle.Flat;
+            btnPantalla.FlatStyle = FlatStyle.Flat;
+
+             
+        }
+        public (DateTime desde, DateTime hasta) SolicitarSelFechaDesdeYHasta()
+        {
+            DateTime desde = TomarFechaDesde();
+            DateTime hasta = TomarFechaHasta();
+
+            return (desde, hasta);
+        }
+        public DateTime TomarFechaDesde()
+        {
+            return dtpDesde.Value;
+        }
+        public DateTime TomarFechaHasta()
+        {
+            return dtpHasta.Value;
+        }
+        public bool ValidarPeriodo(DateTime desde, DateTime hasta)
+        {
+             
+            if (desde <= hasta)
+            {
+                return true;
+            }
+            return false ;
         }
 
+        public string SolicitarSelTipoReseña()
+        {
+            string tipoReseña =  TomarSelTipoReseña();
+            return tipoReseña;
+        }
+     
+        public string TomarSelTipoReseña()
+        {
+            return cmbTipoReseña.SelectedItem.ToString();
 
+        }
+        public void SolicitarSelTipoVisualizacion()
+        {
+
+        }
+
+        private void btnPDF_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

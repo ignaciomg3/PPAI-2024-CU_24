@@ -61,6 +61,7 @@
             this.btnGenerarRanking.TabIndex = 0;
             this.btnGenerarRanking.Text = "Generar Ranking";
             this.btnGenerarRanking.UseVisualStyleBackColor = true;
+            this.btnGenerarRanking.Click += new System.EventHandler(this.btnGenerarRanking_Click);
             // 
             // dataGridView1
             // 
@@ -131,7 +132,6 @@
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Hasta: ";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // dtpHasta
             // 
@@ -148,7 +148,6 @@
             this.label3.Size = new System.Drawing.Size(89, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Tipo de Reseña: ";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // cmbTipoReseña
             // 
@@ -206,9 +205,9 @@
             // 
             this.btnGenerarRankingDeVinos.Location = new System.Drawing.Point(12, 12);
             this.btnGenerarRankingDeVinos.Name = "btnGenerarRankingDeVinos";
-            this.btnGenerarRankingDeVinos.Size = new System.Drawing.Size(156, 36);
+            this.btnGenerarRankingDeVinos.Size = new System.Drawing.Size(167, 46);
             this.btnGenerarRankingDeVinos.TabIndex = 12;
-            this.btnGenerarRankingDeVinos.Text = "Generar Ranking de Vinos";
+            this.btnGenerarRankingDeVinos.Text = "Opcion Generar Ranking de Vinos";
             this.btnGenerarRankingDeVinos.UseVisualStyleBackColor = true;
             this.btnGenerarRankingDeVinos.Click += new System.EventHandler(this.btnGenerarRankingDeVinos_Click);
             // 
@@ -226,7 +225,7 @@
             this.panelGenerarRanking.Controls.Add(this.label3);
             this.panelGenerarRanking.Controls.Add(this.btnPDF);
             this.panelGenerarRanking.Controls.Add(this.cmbTipoReseña);
-            this.panelGenerarRanking.Location = new System.Drawing.Point(24, 54);
+            this.panelGenerarRanking.Location = new System.Drawing.Point(24, 64);
             this.panelGenerarRanking.Name = "panelGenerarRanking";
             this.panelGenerarRanking.Size = new System.Drawing.Size(920, 454);
             this.panelGenerarRanking.TabIndex = 13;
@@ -242,7 +241,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PantallaPrincipal";
             this.Text = "PantallaPrincipal";
-            this.Load += new System.EventHandler(this.PantallaPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panelGenerarRanking.ResumeLayout(false);
             this.panelGenerarRanking.PerformLayout();

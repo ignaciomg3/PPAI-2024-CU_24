@@ -44,5 +44,15 @@ namespace CU_24_GenerarReporte.Entidades
             }
             return totalBodegas;
         }
+        
+        public void MostrarInformacion()
+        {
+            // Mostrar información del país
+            Console.WriteLine($"País: {Nombre}");
+            Console.WriteLine($"Cantidad de Provincias: {ContarProvincias()}");
+            Console.WriteLine($"Cantidad de Bodegas: {ContarBodegas()}");
+            
+        }
+
     }
 }

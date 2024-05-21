@@ -1,4 +1,5 @@
-﻿using CU_24_GenerarReporte.Entidades;
+﻿using CU_24_GenerarReporte.Boundary;
+using CU_24_GenerarReporte.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,8 @@ namespace CU_24_GenerarReporte.Controlador
         public string TipoReseña { get; set; }
         public string TipoVisualizacion { get; set; }
 
+        private PantallaPrincipal principal;
+
         public Gestor(List<Vino> listaVinos, DateTime fechaDesde, DateTime fechaHasta, string tipoReseña, string tipoVisualizacion)
         {
             ListaVinos = listaVinos;
@@ -23,8 +26,37 @@ namespace CU_24_GenerarReporte.Controlador
             TipoReseña = tipoReseña;
             TipoVisualizacion = tipoVisualizacion;
         }
-
+        
         // Implementación de métodos adicionales si es necesario
+        public void OpcionGenerarRankingVinos()
+        {
+            
+        }
+        public void TomarSelFechaDesdeYHasta(DateTime fechaDesde, DateTime fechaHasta)
+        {
+            this.FechaDesde= fechaDesde;
+            this.FechaHasta= fechaHasta;
+        }
+        public void TomarSeleccionTipoReseña(string tipoReseña)
+        {
+            this.TipoReseña = tipoReseña;
+
+        }
+        public void TomarSeleccioTipoVisualizazcion()
+        {
+
+        }
+        public void BuscarVinosConReseñaEnPeriodos()
+        {
+            //loop
+        }
+
+    public void SolicitarSelFechaDesdeYHasta()
+        {
+
+        }
+
+        
     }
 
 }
