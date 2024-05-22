@@ -395,6 +395,8 @@ namespace CU_24_GenerarReporte.Boundary
         {
             int puesto = 1;
             grillaRankingVinos.Rows.Clear();
+
+            //5to Loop
             foreach (var vino in listaVinos)
             {
                 //                         puesto     vino,        promedio,   precio,     bodega,    region,    ,pais,     varietal

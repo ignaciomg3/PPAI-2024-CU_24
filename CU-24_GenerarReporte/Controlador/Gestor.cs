@@ -21,11 +21,15 @@ namespace CU_24_GenerarReporte.Controlador
 
         private PantallaPrincipal pantallaPrincipalAtributo;
 
-        List<(Vino,string)> listaVinosValidadosConPais = new List<(Vino, string)>();
+        //creamos listas vacías.
+        List<(Vino,decimal)> listaVinosyPromedio = new List<(Vino, decimal)>();
+        List<(Vino, List<Reseña>)> listaVinoyReseñas = new List<(Vino, List<Reseña>)>();
 
-        public List<(Vino, decimal)> listaVinoYPromedio  { get; set; }
+        public List<(Vino, decimal)> listaVinoYPromedioAtributo  { get; set; }
+        public List<(Vino, List<Reseña>)> listaVinoySusReseñasAtributo { get; set; }
 
-    public Gestor(List<Vino> listaVinos, DateTime fechaDesde, DateTime fechaHasta, string tipoReseña, string tipoVisualizacion, PantallaPrincipal principal)
+
+        public Gestor(List<Vino> listaVinos, DateTime fechaDesde, DateTime fechaHasta, string tipoReseña, string tipoVisualizacion, PantallaPrincipal principal)
         {
             ListaVinos = listaVinos;
             FechaDesde = fechaDesde;
@@ -33,6 +37,8 @@ namespace CU_24_GenerarReporte.Controlador
             TipoReseña = tipoReseña;
             TipoVisualizacion = tipoVisualizacion;
             pantallaPrincipalAtributo = principal;
+            listaVinoYPromedioAtributo = listaVinosyPromedio;
+            listaVinoySusReseñasAtributo = listaVinoyReseñas;
         } 
        
         // Implementación de métodos adicionales si es necesario
@@ -65,22 +71,19 @@ namespace CU_24_GenerarReporte.Controlador
         }
         public void BuscarVinosConReseñaEnPeriodos()
         {
-            MessageBox.Show("Buscando vinos que cumplan con los filtros");
-
-
-            //creamos una lista que contenga los vinos con sus reseñas enPeriodoyDeSommelier.
+            MessageBox.Show("1er Loop - Buscando vinos que cumplan con los filtros");
+            //creo una lista que contenga (vino con sus reseñas)
             List<(Vino, List<Reseña>)> ListaDeTuplasVinoYSusReseñasEnPySom = new List<(Vino,List<Reseña>)>();
 
               
-            // Primer Loop (amarillo)
-            // Vamos a recorrer TODOS los vinos para obtener sus reseñas que cumplan con el periodo y sean Premium.
+            // 1er Loop (amarillo)
+            // Vamos a recorrer TODOS los vinos para obtener sus reseñas q1ercumplan con el periodo y sean Premium.
             // [mientras haya vinos]
             foreach (Vino v in ListaVinos)
             {
                 //Creo una lista para guardar las reseñas de Cada Vino que cumplan.  (2do loop)
                 List<Reseña> reseñasDelVino =  v.tenesReseñasDeTipoEnPeriodo(FechaDesde, FechaHasta);
 
-                
                 //si tiene Reseñas enPeriodo y Premium entonces va a devolver una lista (no null).
                 if (reseñasDelVino != null)
                 {
@@ -88,39 +91,41 @@ namespace CU_24_GenerarReporte.Controlador
                     var tuplaVinoYsusReseñas = (v,reseñasDelVino);
                     //entonces lo agregamos la tupla(VyR) a la lista
                     ListaDeTuplasVinoYSusReseñasEnPySom.Add(tuplaVinoYsusReseñas);
+
+                    //también lo agrego al atributo del gestor.
+                    this.listaVinoySusReseñasAtributo.Add(tuplaVinoYsusReseñas);
                 };
-                 
             }
 
             //3er Loop
-            this.listaVinoYPromedio = calcularPuntajePromedioDeReseñasDeVinosValidados(ListaDeTuplasVinoYSusReseñasEnPySom);
+            this.listaVinoYPromedioAtributo = calcularPuntajePromedioDeReseñasDeVinosValidados(ListaDeTuplasVinoYSusReseñasEnPySom);
             
+            //Ordenamos de MAyor a menor por su promedio.
             OrdenarVinos();
 
-
-
+            //rellenamos la grilla o creamos el Excel en su defecto.
             pantallaPrincipalAtributo.RellenarGrilla(ObtenerInformacionVinos());
         }
 
-        public List<(Vino,decimal)> calcularPuntajePromedioDeReseñasDeVinosValidados(List<(Vino,List<Reseña>)> listaVinoySusReseñas)
+        public List<(Vino,decimal)> calcularPuntajePromedioDeReseñasDeVinosValidados(List<(Vino,List<Reseña>)> listaVinoySusReseñasValidadas)
         {
             //este método obtiene una lista de Vinos con sus respectivas reseñas y devuelve una lista de Vinos con sus respectivos promedios.
-            MessageBox.Show("calculando el promedio de cada vino");
+            MessageBox.Show("3er Loop - Calculando el promedio de puntuación de reseña de cada vino");
 
             var listaVinoYSuPromedio = new List<(Vino, decimal)>();
 
-            //3er loop 
-            foreach (var (vino, reseñas) in listaVinoySusReseñas)
+            //3er loop - Calculamos el promedio 
+            foreach (var (vino, reseñas) in listaVinoySusReseñasValidadas)
             {
-                if (reseñas.Count == 0)
-                {
-                    listaVinoYSuPromedio.Add((vino, 0));
-                }
-                else
+                if (reseñas.Count > 0)
                 {
                     decimal puntajePromedio = (decimal)reseñas.Average(r => r.Puntaje);
                     listaVinoYSuPromedio.Add((vino, puntajePromedio));
+
+                    //también lo agrego al atributo para controlar mas luego.
+                    listaVinoYPromedioAtributo.Add((vino, puntajePromedio));
                 }
+                
             }
             return listaVinoYSuPromedio;
 
@@ -129,15 +134,18 @@ namespace CU_24_GenerarReporte.Controlador
         public void OrdenarVinos()
         {
             MessageBox.Show("Ordenando la lista de vinos según su promedio");
-            this.listaVinoYPromedio.Sort((x, y) => y.Item2.CompareTo(x.Item2));
+            this.listaVinoYPromedioAtributo.Sort((x, y) => y.Item2.CompareTo(x.Item2));
 
         }
 
         public List<(string, decimal, decimal, string, string, string, string)> ObtenerInformacionVinos()
         {
             List<(string, decimal,decimal, string, string, string, string)> listaDatos = new List<(string, decimal, decimal, string, string, string, string)>();
-            foreach (var (vino, promedio) in this.listaVinoYPromedio)
+
+            //4to loop - Obtenemos su información. 
+            foreach (var (vino, promedio) in this.listaVinoYPromedioAtributo)
             {
+                //loop
                 string nombreVino   = vino.Nombre;
                 decimal calificacionPromedio = promedio;
                 decimal precioVino = vino.PrecioARS;
@@ -150,12 +158,12 @@ namespace CU_24_GenerarReporte.Controlador
 
                 (string nombre,
                 decimal calificacionPromedio,
-                decimal precioVino, 
+                decimal precioVino,
                 string bodega,
                 string descripcion,
                 string region,
                 string pais
-                ) tuplaDatos = (nombreVino,calificacionPromedio,precioVino,nombreBodega, descripcionVarietal, nombreRegion, nombrePais);
+                ) tuplaDatos = (nombreVino, calificacionPromedio, precioVino, nombreBodega, descripcionVarietal, nombreRegion, nombrePais);
 
                 listaDatos.Add(tuplaDatos);
 
@@ -168,6 +176,7 @@ namespace CU_24_GenerarReporte.Controlador
                 Console.WriteLine($"Varietal: {descripcionVarietal}");
                 Console.WriteLine($"Promedio: {promedio}");
                 Console.WriteLine();
+            
             }
             return listaDatos;
         }
