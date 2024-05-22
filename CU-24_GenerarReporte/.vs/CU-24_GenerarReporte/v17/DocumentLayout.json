@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|c:\\users\\usuario\\desktop\\cu24_generarreporte_v2\\cu-24_generarreporte\\boundary\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:boundary\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\boundary\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:boundary\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\boundary\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:boundary\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\controlador\\gestor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:controlador\\gestor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\entidades\\vino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:entidades\\vino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\entidades\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:entidades\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PantallaPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.cs",
+              "RelativeDocumentMoniker": "Boundary\\PantallaPrincipal.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.cs",
+              "RelativeToolTip": "Boundary\\PantallaPrincipal.cs",
+              "ViewState": "AQIAAH4BAAAAAAAAAAAUwJMBAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:40:47.649Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PantallaPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.cs",
+              "RelativeDocumentMoniker": "Boundary\\PantallaPrincipal.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\Boundary\\PantallaPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boundary\\PantallaPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T05:24:45.347Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\Boundary\\Login.cs",
+              "RelativeDocumentMoniker": "Boundary\\Login.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\Boundary\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Boundary\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T05:24:42.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vino.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\Entidades\\Vino.cs",
+              "RelativeDocumentMoniker": "Entidades\\Vino.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\Entidades\\Vino.cs",
+              "RelativeToolTip": "Entidades\\Vino.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwCIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T04:27:32.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pais.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\Entidades\\Pais.cs",
+              "RelativeDocumentMoniker": "Entidades\\Pais.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\Entidades\\Pais.cs",
+              "RelativeToolTip": "Entidades\\Pais.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAmwDUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T14:38:26.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gestor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\Controlador\\Gestor.cs",
+              "RelativeDocumentMoniker": "Controlador\\Gestor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\CU24_GenerarReporte_V2\\CU-24_GenerarReporte\\Controlador\\Gestor.cs",
+              "RelativeToolTip": "Controlador\\Gestor.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAtwEUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:09:20.12Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

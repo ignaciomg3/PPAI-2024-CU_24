@@ -1,0 +1,49 @@
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaPrincipal.resources
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.SuggestedBindingRedirects.cache
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaPrincipal.resources
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.SuggestedBindingRedirects.cache
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaPrincipal.resources
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\Usuario\Desktop\PPAI2024-main\PPAI2024-main\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\PPAI2024-main\PPAI2024-main\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\Usuario\Desktop\PPAI2024-main\PPAI2024-main\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\Usuario\Desktop\CU24_GenerarReporte_V2\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\CU24_GenerarReporte_V2\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\Usuario\Desktop\CU24_GenerarReporte_V2\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\Usuario\Desktop\CU24_GenerarReporte_V2\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\Usuario\Desktop\CU24_GenerarReporte_V2\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\Usuario\Desktop\CU24_GenerarReporte_V2\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\Usuario\Desktop\CU24_GenerarReporte_V2\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\Usuario\Desktop\CU24_GenerarReporte_V2\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaPrincipal.resources
+C:\Users\Usuario\Desktop\CU24_GenerarReporte_V2\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\Usuario\Desktop\CU24_GenerarReporte_V2\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\CU24_GenerarReporte_V2\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
