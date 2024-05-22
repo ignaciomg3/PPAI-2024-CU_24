@@ -19,7 +19,7 @@ namespace CU_24_GenerarReporte.Entidades
 
         private List<Reseña> Reseñas { get; set; } 
 
-        public double promedioPuntajePromedioSommelier { get; set; }
+        public double promedioDePuntajesSommelier { get; set; }
 
         public Vino(int añada, DateTime fechaActualizacion, string imagenEtiqueta, string nombre, string notaDeCataBodega, decimal precioARS, Bodega bodega, List<Varietal> varietales,List<Reseña> reseñas)
         {
@@ -32,7 +32,7 @@ namespace CU_24_GenerarReporte.Entidades
             Bodega = bodega;
             Varietales = varietales;
             Reseñas = reseñas;
-            promedioPuntajePromedioSommelier = 0;
+            promedioDePuntajesSommelier = 0;
         }
 
         public Vino()
@@ -61,20 +61,25 @@ namespace CU_24_GenerarReporte.Entidades
             return Bodega.Region.Nombre.Equals(nombreRegion, StringComparison.OrdinalIgnoreCase);
         }
 
-        public Vino tenesReseñasDeTipoEnPeriodo(Vino vino,DateTime FechaDesde, DateTime FechaHasta)
+        public List<Reseña> tenesReseñasDeTipoEnPeriodo(DateTime FechaDesde, DateTime FechaHasta)
         {
-            Vino vinoEvaluado = new Vino();
-            foreach(Reseña rese in vino.Reseñas)
+            //2do Loop (rojo) 
+            //recorro las reseñas, me fijo si cumple con Periodo y Sommelier, las agrego a la lista y retorno la lista.
+            //[mientras haya reseñas]
+            List<Reseña> listaReseñaEnPeriodoYDeSommerlier = new List<Reseña>();
+
+            foreach(Reseña rese in this.Reseñas)
             {
-                vinoEvaluado = vino;
+                //vinoEvaluado = vino;
                 bool cumplePeriodo = rese.SosDePeriodo(FechaDesde, FechaHasta);
                 bool cumpleSommelier = rese.SosDeSommelier();
                 if (cumplePeriodo && cumpleSommelier)
                 {
-                    return vinoEvaluado;
+                    listaReseñaEnPeriodoYDeSommerlier.Add(rese);
                 }
+                
             }
-            return null;
+            return listaReseñaEnPeriodoYDeSommerlier;
         }
 
         public List<string> buscarDescripcionDeVarietal()
@@ -102,7 +107,7 @@ namespace CU_24_GenerarReporte.Entidades
                 }
             }
 
-            this.promedioPuntajePromedioSommelier = CalcularPuntajePromedio(puntajeTotal, contador);
+            this.promedioDePuntajesSommelier = CalcularPuntajePromedio(puntajeTotal, contador);
               
         }
 

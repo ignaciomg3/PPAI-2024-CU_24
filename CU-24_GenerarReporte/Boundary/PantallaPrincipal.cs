@@ -274,23 +274,12 @@ namespace CU_24_GenerarReporte.Boundary
         {
             OpcionGenerarRankingDeVinos();
         }
-        
+
+        //Cuando hace click para generar el reporte:
         private void btnGenerarRanking_Click(object sender, EventArgs e)
         {
-            //Cuando hace click para generar el reporte:
-            gestorAtributo.OpcionGenerarRankingVinos(); //este método no sé que función cumple.
-
-            //Solicita las fechas
-            //(DateTime desde, DateTime hasta) fechasDyH = SolicitarSelFechaDesdeYHasta();
-            //Valida el período
-            
-
-            //Solicitamos el tipo de reseña.
-            //string tipoReseña = SolicitarSelTipoReseña();
-
-            //gestorAtributo.TomarSeleccionTipoReseña(tipoReseña);
-
-             
+            gestorAtributo.OpcionGenerarRankingVinos();  
+              
         }
 
         private void OpcionGenerarRankingDeVinos()
@@ -401,12 +390,29 @@ namespace CU_24_GenerarReporte.Boundary
             DialogResult result = MessageBox.Show("¿Desea Generar el Reporte con estos datos?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             return result == DialogResult.Yes;
         }
+
+        public void RellenarGrilla(List<(string, decimal, decimal, string, string, string, string)> listaVinos)
+        {
+            int puesto = 1;
+            grillaRankingVinos.Rows.Clear();
+            foreach (var vino in listaVinos)
+            {
+                //                         puesto     vino,        promedio,   precio,     bodega,    region,    ,pais,     varietal
+                grillaRankingVinos.Rows.Add(puesto, vino.Item1, vino.Item2, vino.Item3, vino.Item4,vino.Item5, vino.Item6, vino.Item7);
+                puesto++;
+            }
+        }
         private void btnPDF_Click(object sender, EventArgs e)
         {
 
         }
 
         private void rbExcel_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

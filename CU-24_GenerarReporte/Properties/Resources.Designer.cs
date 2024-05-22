@@ -93,6 +93,36 @@ namespace CU_24_GenerarReporte.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img_excel_2 {
+            get {
+                object obj = ResourceManager.GetObject("img excel 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_excel_3 {
+            get {
+                object obj = ResourceManager.GetObject("img excel 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_excel_4 {
+            get {
+                object obj = ResourceManager.GetObject("img excel 4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img_pantalla {
             get {
                 object obj = ResourceManager.GetObject("img pantalla", resourceCulture);
@@ -103,9 +133,29 @@ namespace CU_24_GenerarReporte.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img_pantalla_2 {
+            get {
+                object obj = ResourceManager.GetObject("img pantalla 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img_pdf {
             get {
                 object obj = ResourceManager.GetObject("img pdf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_pdf_2 {
+            get {
+                object obj = ResourceManager.GetObject("img pdf 2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
