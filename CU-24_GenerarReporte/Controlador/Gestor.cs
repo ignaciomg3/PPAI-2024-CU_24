@@ -75,7 +75,7 @@ namespace CU_24_GenerarReporte.Controlador
             //creo una lista que contenga (vino con sus reseñas)
             List<(Vino, List<Reseña>)> ListaDeTuplasVinoYSusReseñasEnPySom = new List<(Vino,List<Reseña>)>();
 
-              
+            
             // 1er Loop (amarillo)
             // Vamos a recorrer TODOS los vinos para obtener sus reseñas q1ercumplan con el periodo y sean Premium.
             // [mientras haya vinos]
