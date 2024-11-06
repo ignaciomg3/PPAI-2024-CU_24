@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\megap\\OneDrive\\Escritorio\\PPAI2024_Entrega1_Final\\PPAI2024\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|C:\\Users\\megap\\OneDrive\\Escritorio\\PPAI2024_Entrega1_Final\\PPAI2024\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\controlador\\gestorrankingvinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:controlador\\gestorrankingvinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|c:\\users\\megap\\onedrive\\escritorio\\ppai2024_entrega1_final\\ppai2024\\ppai-2024-cu_24\\cu-24_generarreporte\\entidades\\regionvitivinicola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:entidades\\regionvitivinicola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|c:\\users\\megap\\onedrive\\escritorio\\ppai2024_entrega1_final\\ppai2024\\ppai-2024-cu_24\\cu-24_generarreporte\\entidades\\provincia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C691DB-6512-4213-94EA-EEE29F318D39}|CU-24_GenerarReporte.csproj|solutionrelative:entidades\\provincia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Provincia.cs",
+              "DocumentMoniker": "C:\\Users\\megap\\OneDrive\\Escritorio\\PPAI2024_Entrega1_Final\\PPAI2024\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Entidades\\Provincia.cs",
+              "RelativeDocumentMoniker": "Entidades\\Provincia.cs",
+              "ToolTip": "C:\\Users\\megap\\OneDrive\\Escritorio\\PPAI2024_Entrega1_Final\\PPAI2024\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Entidades\\Provincia.cs",
+              "RelativeToolTip": "Entidades\\Provincia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:06:22.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegionVitivinicola.cs",
+              "DocumentMoniker": "C:\\Users\\megap\\OneDrive\\Escritorio\\PPAI2024_Entrega1_Final\\PPAI2024\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Entidades\\RegionVitivinicola.cs",
+              "RelativeDocumentMoniker": "Entidades\\RegionVitivinicola.cs",
+              "ToolTip": "C:\\Users\\megap\\OneDrive\\Escritorio\\PPAI2024_Entrega1_Final\\PPAI2024\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Entidades\\RegionVitivinicola.cs",
+              "RelativeToolTip": "Entidades\\RegionVitivinicola.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:06:08.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestorRankingVinos.cs",
+              "DocumentMoniker": "C:\\Users\\megap\\OneDrive\\Escritorio\\PPAI2024_Entrega1_Final\\PPAI2024\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Controlador\\GestorRankingVinos.cs",
+              "RelativeDocumentMoniker": "Controlador\\GestorRankingVinos.cs",
+              "ToolTip": "C:\\Users\\megap\\OneDrive\\Escritorio\\PPAI2024_Entrega1_Final\\PPAI2024\\PPAI-2024-CU_24\\CU-24_GenerarReporte\\Controlador\\GestorRankingVinos.cs",
+              "RelativeToolTip": "Controlador\\GestorRankingVinos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T15:05:50.846Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
