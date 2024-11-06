@@ -44,17 +44,18 @@
             this.rbPantalla = new System.Windows.Forms.RadioButton();
             this.rbExcel = new System.Windows.Forms.RadioButton();
             this.rbPDF = new System.Windows.Forms.RadioButton();
+            this.dgvRankingVinos = new System.Windows.Forms.DataGridView();
             this.panelGenerarRanking.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.grupoBoxVisualizacion.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvRankingVinos)).BeginInit();
             this.SuspendLayout();
             // 
             // btnGenerarRanking
             // 
-            this.btnGenerarRanking.Location = new System.Drawing.Point(284, 378);
-            this.btnGenerarRanking.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGenerarRanking.Location = new System.Drawing.Point(213, 307);
             this.btnGenerarRanking.Name = "btnGenerarRanking";
-            this.btnGenerarRanking.Size = new System.Drawing.Size(131, 33);
+            this.btnGenerarRanking.Size = new System.Drawing.Size(98, 27);
             this.btnGenerarRanking.TabIndex = 0;
             this.btnGenerarRanking.Text = "Generar Ranking";
             this.btnGenerarRanking.UseVisualStyleBackColor = true;
@@ -62,20 +63,19 @@
             // 
             // dtpDesde
             // 
-            this.dtpDesde.Location = new System.Drawing.Point(73, 38);
-            this.dtpDesde.Margin = new System.Windows.Forms.Padding(4);
+            this.dtpDesde.Location = new System.Drawing.Point(55, 31);
             this.dtpDesde.Name = "dtpDesde";
-            this.dtpDesde.Size = new System.Drawing.Size(309, 22);
+            this.dtpDesde.Size = new System.Drawing.Size(233, 20);
             this.dtpDesde.TabIndex = 2;
+            this.dtpDesde.Value = new System.DateTime(2022, 5, 1, 0, 0, 0, 0);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(253)))), ((int)(((byte)(242)))));
-            this.label1.Location = new System.Drawing.Point(7, 45);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(5, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 16);
+            this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Desde: ";
             // 
@@ -83,29 +83,26 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(253)))), ((int)(((byte)(242)))));
-            this.label2.Location = new System.Drawing.Point(7, 91);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(5, 74);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 16);
+            this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Hasta: ";
             // 
             // dtpHasta
             // 
-            this.dtpHasta.Location = new System.Drawing.Point(73, 82);
-            this.dtpHasta.Margin = new System.Windows.Forms.Padding(4);
+            this.dtpHasta.Location = new System.Drawing.Point(55, 67);
             this.dtpHasta.Name = "dtpHasta";
-            this.dtpHasta.Size = new System.Drawing.Size(309, 22);
+            this.dtpHasta.Size = new System.Drawing.Size(233, 20);
             this.dtpHasta.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(253)))), ((int)(((byte)(242)))));
-            this.label3.Location = new System.Drawing.Point(8, 34);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(6, 28);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 16);
+            this.label3.Size = new System.Drawing.Size(89, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Tipo de Reseña: ";
             // 
@@ -116,20 +113,18 @@
             "Sommelier",
             "Normales",
             "Amigos"});
-            this.cmbTipoReseña.Location = new System.Drawing.Point(138, 30);
-            this.cmbTipoReseña.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbTipoReseña.Location = new System.Drawing.Point(104, 24);
             this.cmbTipoReseña.Name = "cmbTipoReseña";
-            this.cmbTipoReseña.Size = new System.Drawing.Size(188, 24);
+            this.cmbTipoReseña.Size = new System.Drawing.Size(142, 21);
             this.cmbTipoReseña.TabIndex = 7;
             this.cmbTipoReseña.Tag = "";
             this.cmbTipoReseña.Text = "Sommelier";
             // 
             // btnGenerarRankingDeVinos
             // 
-            this.btnGenerarRankingDeVinos.Location = new System.Drawing.Point(16, 15);
-            this.btnGenerarRankingDeVinos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGenerarRankingDeVinos.Location = new System.Drawing.Point(12, 12);
             this.btnGenerarRankingDeVinos.Name = "btnGenerarRankingDeVinos";
-            this.btnGenerarRankingDeVinos.Size = new System.Drawing.Size(223, 57);
+            this.btnGenerarRankingDeVinos.Size = new System.Drawing.Size(167, 46);
             this.btnGenerarRankingDeVinos.TabIndex = 12;
             this.btnGenerarRankingDeVinos.Text = "Generar Ranking de Vinos";
             this.btnGenerarRankingDeVinos.UseVisualStyleBackColor = true;
@@ -143,10 +138,9 @@
             this.panelGenerarRanking.Controls.Add(this.btnGenerarRanking);
             this.panelGenerarRanking.Controls.Add(this.label3);
             this.panelGenerarRanking.Controls.Add(this.cmbTipoReseña);
-            this.panelGenerarRanking.Location = new System.Drawing.Point(5, 1);
-            this.panelGenerarRanking.Margin = new System.Windows.Forms.Padding(4);
+            this.panelGenerarRanking.Location = new System.Drawing.Point(12, 11);
             this.panelGenerarRanking.Name = "panelGenerarRanking";
-            this.panelGenerarRanking.Size = new System.Drawing.Size(425, 423);
+            this.panelGenerarRanking.Size = new System.Drawing.Size(331, 333);
             this.panelGenerarRanking.TabIndex = 13;
             // 
             // groupBox1
@@ -156,19 +150,20 @@
             this.groupBox1.Controls.Add(this.dtpDesde);
             this.groupBox1.Controls.Add(this.dtpHasta);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(253)))), ((int)(((byte)(242)))));
-            this.groupBox1.Location = new System.Drawing.Point(11, 78);
+            this.groupBox1.Location = new System.Drawing.Point(8, 63);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(404, 150);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Size = new System.Drawing.Size(303, 122);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Fecha de Reseñas";
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(123, 378);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCancelar.Location = new System.Drawing.Point(92, 307);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(131, 33);
+            this.btnCancelar.Size = new System.Drawing.Size(98, 27);
             this.btnCancelar.TabIndex = 13;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -180,11 +175,9 @@
             this.grupoBoxVisualizacion.Controls.Add(this.rbExcel);
             this.grupoBoxVisualizacion.Controls.Add(this.rbPDF);
             this.grupoBoxVisualizacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(253)))), ((int)(((byte)(242)))));
-            this.grupoBoxVisualizacion.Location = new System.Drawing.Point(11, 235);
-            this.grupoBoxVisualizacion.Margin = new System.Windows.Forms.Padding(4);
+            this.grupoBoxVisualizacion.Location = new System.Drawing.Point(8, 191);
             this.grupoBoxVisualizacion.Name = "grupoBoxVisualizacion";
-            this.grupoBoxVisualizacion.Padding = new System.Windows.Forms.Padding(4);
-            this.grupoBoxVisualizacion.Size = new System.Drawing.Size(404, 92);
+            this.grupoBoxVisualizacion.Size = new System.Drawing.Size(303, 75);
             this.grupoBoxVisualizacion.TabIndex = 12;
             this.grupoBoxVisualizacion.TabStop = false;
             this.grupoBoxVisualizacion.Text = "Tipo de Visualización";
@@ -192,10 +185,9 @@
             // rbPantalla
             // 
             this.rbPantalla.AutoSize = true;
-            this.rbPantalla.Location = new System.Drawing.Point(300, 41);
-            this.rbPantalla.Margin = new System.Windows.Forms.Padding(4);
+            this.rbPantalla.Location = new System.Drawing.Point(225, 33);
             this.rbPantalla.Name = "rbPantalla";
-            this.rbPantalla.Size = new System.Drawing.Size(77, 20);
+            this.rbPantalla.Size = new System.Drawing.Size(63, 17);
             this.rbPantalla.TabIndex = 2;
             this.rbPantalla.TabStop = true;
             this.rbPantalla.Text = "Pantalla";
@@ -204,10 +196,9 @@
             // rbExcel
             // 
             this.rbExcel.AutoSize = true;
-            this.rbExcel.Location = new System.Drawing.Point(155, 41);
-            this.rbExcel.Margin = new System.Windows.Forms.Padding(4);
+            this.rbExcel.Location = new System.Drawing.Point(116, 33);
             this.rbExcel.Name = "rbExcel";
-            this.rbExcel.Size = new System.Drawing.Size(61, 20);
+            this.rbExcel.Size = new System.Drawing.Size(51, 17);
             this.rbExcel.TabIndex = 1;
             this.rbExcel.TabStop = true;
             this.rbExcel.Text = "Excel";
@@ -216,25 +207,32 @@
             // rbPDF
             // 
             this.rbPDF.AutoSize = true;
-            this.rbPDF.Location = new System.Drawing.Point(8, 41);
-            this.rbPDF.Margin = new System.Windows.Forms.Padding(4);
+            this.rbPDF.Location = new System.Drawing.Point(6, 33);
             this.rbPDF.Name = "rbPDF";
-            this.rbPDF.Size = new System.Drawing.Size(55, 20);
+            this.rbPDF.Size = new System.Drawing.Size(46, 17);
             this.rbPDF.TabIndex = 0;
             this.rbPDF.TabStop = true;
             this.rbPDF.Text = "PDF";
             this.rbPDF.UseVisualStyleBackColor = true;
             // 
+            // dgvRankingVinos
+            // 
+            this.dgvRankingVinos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvRankingVinos.Location = new System.Drawing.Point(349, 12);
+            this.dgvRankingVinos.Name = "dgvRankingVinos";
+            this.dgvRankingVinos.Size = new System.Drawing.Size(543, 332);
+            this.dgvRankingVinos.TabIndex = 15;
+            // 
             // PantallaRankingVinos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(70)))), ((int)(((byte)(44)))));
-            this.ClientSize = new System.Drawing.Size(444, 438);
+            this.ClientSize = new System.Drawing.Size(904, 398);
+            this.Controls.Add(this.dgvRankingVinos);
             this.Controls.Add(this.panelGenerarRanking);
             this.Controls.Add(this.btnGenerarRankingDeVinos);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PantallaRankingVinos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Generar Ranking de Vinos";
@@ -245,6 +243,7 @@
             this.groupBox1.PerformLayout();
             this.grupoBoxVisualizacion.ResumeLayout(false);
             this.grupoBoxVisualizacion.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvRankingVinos)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -270,5 +269,6 @@
         private System.Windows.Forms.RadioButton rbPDF;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.DataGridView dgvRankingVinos;
     }
 }

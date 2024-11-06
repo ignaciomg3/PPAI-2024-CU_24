@@ -4,6 +4,8 @@ using CU_24_GenerarReporte.Interfaces;
 using CU_24_GenerarReporte.Objetos;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +23,8 @@ namespace CU_24_GenerarReporte.Controlador
         //Estos metodos solo sirven como comprobacion para el seguimiento normal del CU
         public string tipoReseña { get; set; }
         public string tipoVisualizacion { get; set; }
+
+        private string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["cadenaBD"];
 
         private IEstrategiaReporte _estrategiaReporte { get; set; }
         private IEstrategiaVisualizacion _estrategiaVisualizacion { get; set; }
@@ -135,7 +139,60 @@ namespace CU_24_GenerarReporte.Controlador
         {
             Console.WriteLine("Fin de Caso De Uso");
         }
-        
+
+
+        public DataTable obtener_Paises()
+        {
+            //string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["cadenaBD"];
+            SqlCommand comando = new SqlCommand();
+            SqlConnection conexion = new SqlConnection(this.cadenaConexion);
+
+            string consulta = "SELECT * FROM Pais";
+
+            comando.Parameters.Clear();
+            comando.CommandType = CommandType.Text;
+            comando.CommandText = consulta;
+
+            conexion.Open();
+
+            comando.Connection = conexion;
+
+            DataTable tabla = new DataTable();
+
+            SqlDataAdapter adaptador = new SqlDataAdapter(comando);
+            adaptador.Fill(tabla);
+
+            conexion.Close();
+            return tabla;
+
+        }
+        //funcion  para trare una tabla ingresada por parametro
+        public DataTable obtener_Tabla(string nombreTabla)
+        {
+            //string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["cadenaBD"];
+            SqlCommand comando = new SqlCommand();
+            SqlConnection conexion = new SqlConnection(this.cadenaConexion);
+
+            string consulta = "SELECT * FROM " + nombreTabla;
+
+            comando.Parameters.Clear();
+            comando.CommandType = CommandType.Text;
+            comando.CommandText = consulta;
+
+            conexion.Open();
+
+            comando.Connection = conexion;
+
+            DataTable tabla = new DataTable();
+
+            SqlDataAdapter adaptador = new SqlDataAdapter(comando);
+            adaptador.Fill(tabla);
+
+            conexion.Close();
+            return tabla;
+
+        }
+
     }
 
 }

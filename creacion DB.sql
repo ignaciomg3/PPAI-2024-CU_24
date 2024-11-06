@@ -1,3 +1,15 @@
+
+//HAcer unico usuario
+ALTER DATABASE BaseDatos SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+
+//Hacer multiusuario
+ALTER DATABASE BaseDatos SET MULTI_USER;
+
+
+//Eliminar la base de datos
+DROP DATABASE BaseDatos;
+
+
 CREATE TABLE "Pais" (
     "id_Pais" INTEGER PRIMARY KEY AUTOINCREMENT,
     "nombre" TEXT NOT NULL UNIQUE

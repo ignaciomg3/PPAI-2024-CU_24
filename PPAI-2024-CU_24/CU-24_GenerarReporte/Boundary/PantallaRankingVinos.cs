@@ -1,4 +1,5 @@
 ﻿using CU_24_GenerarReporte.Controlador;
+using CU_24_GenerarReporte.Datos;
 using CU_24_GenerarReporte.Entidades;
 using CU_24_GenerarReporte.Interfaces;
 using CU_24_GenerarReporte.Objetos;
@@ -15,7 +16,7 @@ namespace CU_24_GenerarReporte.Boundary
     public partial class PantallaRankingVinos : Form
     {
         private GestorRankingVinos gestorAtributo;
-
+        
 
         public PantallaRankingVinos(List<Vino> listaVinos)
         {
