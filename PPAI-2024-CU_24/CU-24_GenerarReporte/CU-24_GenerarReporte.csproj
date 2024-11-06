@@ -170,6 +170,7 @@
       <DependentUpon>PantallaRankingVinos.cs</DependentUpon>
     </Compile>
     <Compile Include="Controlador\GestorRankingVinos.cs" />
+    <Compile Include="Datos\GestorBD.cs" />
     <Compile Include="Entidades\Bodega.cs" />
     <Compile Include="Entidades\Pais.cs" />
     <Compile Include="Entidades\Provincia.cs" />
