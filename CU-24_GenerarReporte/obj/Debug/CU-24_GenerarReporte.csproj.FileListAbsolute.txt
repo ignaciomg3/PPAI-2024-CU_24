@@ -1,0 +1,266 @@
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\Usuario\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaPrincipal.resources
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.SuggestedBindingRedirects.cache
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaPrincipal.resources
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\nicolas\Desktop\PPAIMODIFICAR\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.SuggestedBindingRedirects.cache
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaPrincipal.resources
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.dll
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.dll
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.dll
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.xml
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.xml
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.xml
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nicolas\Desktop\SEGUNDO INTENTO\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CopyComplete
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.dll
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.dll
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.dll
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.xml
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.xml
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.xml
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaPrincipal.resources
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_Ge.00A4B65B.Up2Date
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\megap\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.dll
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.dll
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.dll
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.xml
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.xml
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.xml
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.SuggestedBindingRedirects.cache
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaPrincipal.resources
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CopyComplete
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\nicolas\Downloads\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.dll
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.dll
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.dll
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.xml
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.xml
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.xml
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_Ge.00A4B65B.Up2Date
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\megap\Downloads\PPAI 2024 TERMINADO\PPAI 2024 TERMINADO\PPAI2024\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaRankingVinos.resources
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.xml
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.xml
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.xml
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaRankingVinos.resources
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_Ge.00A4B65B.Up2Date
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\ClosedXML.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\ExcelNumberFormat.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Irony.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\SixLabors.Fonts.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.IO.Packaging.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\XLParser.dll
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\ClosedXML.xml
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\ExcelNumberFormat.xml
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\SixLabors.Fonts.xml
+C:\Users\megap\Downloads\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.IO.Packaging.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\ClosedXML.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\ExcelNumberFormat.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Irony.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\SixLabors.Fonts.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.IO.Packaging.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\XLParser.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\ClosedXML.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\ExcelNumberFormat.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\SixLabors.Fonts.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.IO.Packaging.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaRankingVinos.resources
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_Ge.00A4B65B.Up2Date
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Compression.Portable.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Compression.Portable.xml
+C:\Users\megap\OneDrive\Escritorio\PPAI2024_Entrega1_Final\PPAI2024\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe.config
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.exe
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\CU-24_GenerarReporte.pdb
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\ClosedXML.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\ExcelNumberFormat.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Irony.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\SixLabors.Fonts.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Compression.Portable.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.IO.Packaging.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\XLParser.dll
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\ClosedXML.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\EPPlus.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\ExcelNumberFormat.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\SixLabors.Fonts.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Compression.Portable.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.IO.Packaging.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Memory.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Login.resources
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.PantallaRankingVinos.resources
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Properties.Resources.resources
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_Ge.00A4B65B.Up2Date
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
+C:\Users\admin\Desktop\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
