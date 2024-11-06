@@ -264,3 +264,4 @@ C:\Users\admin\Desktop\PPAI-2024-CU_24\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\
 C:\Users\admin\Desktop\PPAI-2024-CU_24\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_Ge.00A4B65B.Up2Date
 C:\Users\admin\Desktop\PPAI-2024-CU_24\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.exe
 C:\Users\admin\Desktop\PPAI-2024-CU_24\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU-24_GenerarReporte.pdb
+C:\Users\admin\Desktop\PPAI-2024-CU_24\PPAI-2024-CU_24\CU-24_GenerarReporte\obj\Debug\CU_24_GenerarReporte.Boundary.AccesoAdatos.resources

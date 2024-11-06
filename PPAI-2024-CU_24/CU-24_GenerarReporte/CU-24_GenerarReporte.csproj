@@ -157,6 +157,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Boundary\AccesoAdatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\AccesoAdatos.Designer.cs">
+      <DependentUpon>AccesoAdatos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Boundary\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,6 +191,9 @@
     <Compile Include="Objetos\VisualizacionPDF.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Boundary\AccesoAdatos.resx">
+      <DependentUpon>AccesoAdatos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Boundary\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

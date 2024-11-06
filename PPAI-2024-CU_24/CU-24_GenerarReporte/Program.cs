@@ -1,4 +1,5 @@
-﻿using CU_24_GenerarReporte.Controlador;
+﻿using CU_24_GenerarReporte.Boundary;
+using CU_24_GenerarReporte.Controlador;
 using CU_24_GenerarReporte.Entidades;
 using System;
 using System.Collections.Generic;
@@ -231,7 +232,8 @@ namespace CU_24_GenerarReporte
             //Pasar lista de vinos a la pantalla
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login(listaVinos));
+            //Application.Run(new Login(listaVinos));
+            Application.Run(new AccesoAdatos());
 
         }
     }
