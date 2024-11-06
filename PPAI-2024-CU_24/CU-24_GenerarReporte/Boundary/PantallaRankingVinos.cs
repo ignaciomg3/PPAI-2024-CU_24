@@ -193,5 +193,10 @@ namespace CU_24_GenerarReporte.Boundary
         {
             Application.Exit();
         }
+
+        private void PantallaRankingVinos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -237,6 +237,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Generar Ranking de Vinos";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PantallaRankingVinos_FormClosing);
+            this.Load += new System.EventHandler(this.PantallaRankingVinos_Load);
             this.panelGenerarRanking.ResumeLayout(false);
             this.panelGenerarRanking.PerformLayout();
             this.groupBox1.ResumeLayout(false);
